@@ -207,7 +207,7 @@ public class Minesweeper extends JFrame {
                 buttons[i][j].setText("");
                 flagged[i][j] = false;
             } else {
-                buttons[i][j].setText("F");
+                buttons[i][j].setText("🏴");
                 flagged[i][j] = true;
             }
         }
